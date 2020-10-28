@@ -25,7 +25,7 @@ You can get a dataframe including name of countries, cumulative number of death 
 library(covid19)
 covidData()
 ```
-
+<img src="man/figures/1.png" width="100%" />
 
 #### Function 2: worldMapPlot
 
@@ -40,12 +40,14 @@ You can pass any date from "2020-01-22" till today as first parameter. The date 
 ```r
 worldMapPlot(date = "2020-10-01", type = "death")
 ```
+<img src="man/figures/2.png" width="100%" />
 
 If you want to know the number of deaths, you must pass "death" as second parameter. Otherwise, you can access to number of all infected people by passing "all".
 
 ```r
 worldMapPlot(date = "2020-10-25", type = "all")
 ```
+<img src="man/figures/3.png" width="100%" />
 
 #### Function 3: timeSeriesPlot
 
@@ -56,7 +58,6 @@ Please note that scale of number of all infected is on left-handed y-axis and th
 You can pass any date from "2020-01-22" as first start_date parameter and any date after that as end_date. The date format must be like this yyyy-mm-dd, where yyyy is the year, mm is the month and dd is the day. 
 
 ```r
-timeSeriesPlot(start_date = "2020-09-30", 
-               end_date   = "2020-10-20", 
-               country_name = "Iran")
+timeSeriesPlot(start_date = "2020-09-30", end_date   = "2020-10-20", country_name = "Iran")
 ```
+<img src="man/figures/4.png" width="100%" />
