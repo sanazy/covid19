@@ -58,6 +58,6 @@ Please note that scale of number of all infected is on left-handed y-axis and th
 You can pass any date from "2020-01-22" as first start_date parameter and any date after that as end_date. The date format must be like this yyyy-mm-dd, where yyyy is the year, mm is the month and dd is the day. 
 
 ```r
-timeSeriesPlot(start_date = "2020-09-30", end_date   = "2020-10-20", country_name = "Iran")
+timeSeriesPlot(start_date = "2020-09-30", end_date = "2020-10-20", country_name = "Iran")
 ```
 <img src="man/figures/4.png" width="100%" />
